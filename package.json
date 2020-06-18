@@ -1,0 +1,20 @@
+{
+  "name": "deeplint-policy-starter",
+  "version": "1.0.0",
+  "description": "This provides a minimal starter template for creating a DeepLint policy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeplint/deeplint-policy-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/deeplint/deeplint-policy-starter/issues"
+  },
+  "homepage": "https://github.com/deeplint/deeplint-policy-starter#readme"
+}

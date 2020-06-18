@@ -1,0 +1,37 @@
+meta:
+  name: deeplint-policy-starter-template
+  author: Your trusted cloud advisor
+  description: This is a starter template for creating DeepLint policy
+  policyFormatVersion: 1.0.0
+
+#inputs:
+#  dummy:
+#    description: dummy inputs
+#    type: String
+#    default: "./"
+
+scanners:
+  dummy-scanner:
+    type: nodejs
+    uses: src/scanner/dummy-scanner.js
+    main: scan
+
+rules:
+  dummy-rule-1:
+    type: nodejs
+    uses: src/rule/dummy-rule-1.js
+    main: check
+    meta:
+      type: "warn"
+      description: "Dummy Rule"
+      tags:
+        - "security"
+
+#actions:
+#  dummy-fix:
+#    type: nodejs
+#    uses: src/dummy-fix-1.js
+#    main: update
+#    with:
+
+
