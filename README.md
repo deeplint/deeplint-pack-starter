@@ -1,3 +1,3 @@
-# DeepLint Policy Starter
+# DeepLint Package Starter
 
-This provides a minimal starter template for creating a DeepLint policy.
+This provides a minimal starter template for creating a DeepLint package.
