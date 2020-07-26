@@ -1,8 +1,8 @@
 meta:
-  name: deeplint-policy-starter-template
-  author: Your trusted cloud advisor
-  description: This is a starter template for creating DeepLint policy
-  policyFormatVersion: 1.0.0
+  name: deeplint-pack-starter-template
+  author: deeplint-dev
+  description: This is a starter template for creating DeepLint pack
+  packFormatVersion: 1.0.0
 
 #inputs:
 #  dummy:
